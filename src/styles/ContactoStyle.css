@@ -1,0 +1,69 @@
+.container-footer{
+    background: #BDDCD7;
+    
+}
+.container-contacto{
+    background: #BDDCD7;
+    width: 100%;
+    height: 100%;
+}
+.container-contacto h2{
+    text-align: center;
+    font-size: 27px;
+}
+.container-contacto p{
+    text-align: center;
+    
+}
+.form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    margin: 10px;
+    gap: 30px;
+    
+}
+.input-form{
+    width: 50%;
+    height: 50px;
+}
+.botton-enviar{
+    display:flex;
+    align-self: flex-end;
+    padding: 10px;
+    border-radius: 5px;
+    width: 60px;
+    background: #7AB2A8;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+.rev-tel{
+    width: 100%;
+    height: 100vh;
+    background: url('../assets/images/rev-tel.jpeg');
+    background-size: cover;
+    color: #fff;
+}
+.rev-tel h2{
+    font-size: 40px;
+    text-align: center;
+}
+.rev-tel p{
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    top: 90px;
+}
+.btn-reserva{
+    position: relative;
+    top: 200px;
+    left: 390px;
+    padding: 12px;
+    border-radius: 5px;
+    border:none;
+    background: #C0C6C5;
+    cursor: pointer;
+}

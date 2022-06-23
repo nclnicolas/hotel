@@ -1,13 +1,9 @@
 import "../styles/HomeStyle.css";
-import { Link } from "react-router-dom";
 import Hotel from "../assets/images/hotel.jpg";
 import Single from "../assets/images/habitacion-single.jpg";
 import Doble from "../assets/images/habitacion-doble.jpg";
 import Triple from "../assets/images/habitacion-triple.jpg";
-import Mail from "../assets/images/mail-icon.png";
-import Whatsapp from "../assets/images/whatsapp-icon.png";
-import Facebook from "../assets/images/facebook-icon.png";
-import Instagram from "../assets/images/instagram-icon.png";
+import Footer from '../components/Footer';
 
 
 
@@ -104,15 +100,7 @@ const Home = () => {
         <div className="images-ubicacion">{map}</div>
         {/* ---------------------------------------------------- */}
         {/* --------------------FOOTER-------------------------- */}
-        <div className="footer">
-          <div>
-            <Link to="/email"><img src={Mail} alt=""/></Link>
-            <Link to="/telefono"><img src={Whatsapp} alt=""/></Link>
-            <Link to="/facebook"><img src={Facebook} alt=""/></Link>
-            <Link to="/instagram"><img src={Instagram} alt=""/></Link>
-          </div>
-          <p>© 2022 Hotel. Todos los derechos reservados.</p>
-        </div>
+        <Footer />
       </div>
     </>
   );
