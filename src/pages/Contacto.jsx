@@ -1,10 +1,23 @@
-import {Link} from 'react-router-dom';
-import React from 'react';
+import React, { useState } from 'react';
 import Footer from '../components/Footer';
 import '../styles/ContactoStyle.css';
 
 
 const Contacto = () => {
+  const [nameUser, setNameUser] = useState('');
+  const [email, setEmail] = useState('');
+  const [telephone, setTelephone] = useState('');
+  const [mesagge, setMesagge] = useState('');
+
+  const validate = (nameUser, email, telephone, mesagge) => {
+    if(nameUser.length < 3) return 'Complete Nombre';
+    if(!email.includes('@')) return 'Complete Email';
+    if(telephone.length < 8) return 'Complete Telefono';
+    if(mesagge.length < 10) return 'Complete Mensaje';
+  }
+
+  const errorMesagge = validate(nameUser, email, telephone, mesagge)
+
   return (
     <div className="container-footer">
     <div className="container-contacto">
@@ -12,12 +25,48 @@ const Contacto = () => {
       <p>Completa el formulario o llámanos a los teléfonos indicados más abajo 
         para aclarar tus dudas o solicitar una reserva.</p>
 
-        <form action="" className="form">
-            <input type="text" className='input-form' placeholder='Nombre'/>
-            <input type="email" className='input-form' placeholder='Direccion de correo electronico'/>
-            <input type="number" className='input-form' placeholder='Telefono'/>
-            <textarea name="" id="" cols="30" rows="10" className='input-form' placeholder='Mensaje'></textarea>
-            <input type="submit" className='botton-enviar' value='Enviar' />
+        <form  className="form" 
+          >
+
+            <input 
+            type="text" 
+            name='nameUser'  
+            className='input-form' 
+            value={nameUser} 
+            onChange={ev => setNameUser(ev.target.value)} 
+            placeholder='Nombre'
+            />
+            <input 
+            type="email" 
+            name='email' 
+            className='input-form' 
+            value={email}
+            onChange={ev => setEmail(ev.target.value)}  
+            placeholder='Direccion de correo electronico'
+            />
+            <input 
+            type="number" 
+            name='telephone' 
+            className='input-form' 
+            value={telephone}
+            onChange={ev => setTelephone(ev.target.value)}  
+            placeholder='Telefono'
+            />
+            <textarea 
+            name="mesagge" 
+            id="" cols="30" rows="10" 
+            className='input-form' 
+            value={mesagge}
+            onChange={ev => setMesagge(ev.target.value)}  
+            placeholder='Mensaje'>
+            </textarea>
+            <p>{errorMesagge }</p>
+            <button 
+            type="submit" 
+            disabled={errorMesagge} 
+            className='botton-enviar'>
+            Enviar</button>
+
         </form>
     </div>
     <div className="rev-tel">
