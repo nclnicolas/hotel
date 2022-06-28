@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/hotel/static/css/main.9953cdbc.css",
-    "main.js": "/hotel/static/js/main.c608c376.js",
+    "main.js": "/hotel/static/js/main.d9e679b7.js",
     "static/media/rev-tel.jpeg": "/hotel/static/media/rev-tel.455f1604cc5156fd3a2d.jpeg",
     "static/media/habitacion-triple.jpg": "/hotel/static/media/habitacion-triple.668bdb11310452617ef9.jpg",
     "static/media/hotel.jpg": "/hotel/static/media/hotel.e35dd8631137b6915b64.jpg",
@@ -13,10 +13,10 @@
     "static/media/mail-icon.png": "/hotel/static/media/mail-icon.0ff8c06a6baf11146cb1.png",
     "index.html": "/hotel/index.html",
     "main.9953cdbc.css.map": "/hotel/static/css/main.9953cdbc.css.map",
-    "main.c608c376.js.map": "/hotel/static/js/main.c608c376.js.map"
+    "main.d9e679b7.js.map": "/hotel/static/js/main.d9e679b7.js.map"
   },
   "entrypoints": [
     "static/css/main.9953cdbc.css",
-    "static/js/main.c608c376.js"
+    "static/js/main.d9e679b7.js"
   ]
 }
