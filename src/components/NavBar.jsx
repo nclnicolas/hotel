@@ -10,7 +10,7 @@ const NavBar = () => {
             <nav className="navbar">
                <Link to='/' className="logo">Logo</Link>
                 <input type="checkbox" id="toggler" />
-                <label for='toggler'><i className="ri-menu-line"><FontAwesomeIcon icon={faBars} className='icon' /></i></label>
+                <label htmlFor='toggler'><i className="ri-menu-line"><FontAwesomeIcon icon={faBars} className='icon' /></i></label>
                 <div className="menu">
                     <ul className="list">
                         <li><Link to='/'>Home</Link></li>

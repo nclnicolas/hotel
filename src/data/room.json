@@ -1,0 +1,182 @@
+[
+    {
+      "id": 1,
+      "tipo": "single",
+      "disponibilidad": false,
+      "precio_por_noche": 75
+    },
+    {
+      "tipo": "doble",
+      "disponibilidad": false,
+      "precio_por_noche": 48,
+      "id": 2
+    },
+    {
+      "tipo": "single",
+      "disponibilidad": false,
+      "precio_por_noche": 31,
+      "id": 3
+    },
+    {
+      "tipo": "doble",
+      "disponibilidad": false,
+      "precio_por_noche": 96,
+      "id": 4
+    },
+    {
+      "tipo": "doble",
+      "disponibilidad": false,
+      "precio_por_noche": 71,
+      "id": 5
+    },
+    {
+      "tipo": "triple",
+      "disponibilidad": false,
+      "precio_por_noche": 12,
+      "id": 6
+    },
+    {
+      "tipo": "triple",
+      "disponibilidad": false,
+      "precio_por_noche": 77,
+      "id": 7
+    },
+    {
+      "tipo": "doble",
+      "disponibilidad": false,
+      "precio_por_noche": 19,
+      "id": 8
+    },
+    {
+      "tipo": "single",
+      "disponibilidad": false,
+      "precio_por_noche": 7,
+      "id": 9
+    },
+    {
+      "tipo": "single",
+      "disponibilidad": false,
+      "precio_por_noche": 11,
+      "id": 10
+    },
+    {
+      "tipo": "doble",
+      "disponibilidad": false,
+      "precio_por_noche": 39,
+      "id": 11
+    },
+    {
+      "tipo": "triple",
+      "disponibilidad": false,
+      "precio_por_noche": 49,
+      "id": 12
+    },
+    {
+      "tipo": "doble",
+      "disponibilidad": false,
+      "precio_por_noche": 4,
+      "id": 13
+    },
+    {
+      "tipo": "single",
+      "disponibilidad": false,
+      "precio_por_noche": 19,
+      "id": 14
+    },
+    {
+      "tipo": "single",
+      "disponibilidad": false,
+      "precio_por_noche": 49,
+      "id": 15
+    },
+    {
+      "tipo": "doble",
+      "disponibilidad": false,
+      "precio_por_noche": 14,
+      "id": 16
+    },
+    {
+      "tipo": "triple",
+      "disponibilidad": false,
+      "precio_por_noche": 42,
+      "id": 17
+    },
+    {
+      "tipo": "single",
+      "disponibilidad": false,
+      "precio_por_noche": 43,
+      "id": 18
+    },
+    {
+      "tipo": "doble",
+      "disponibilidad": false,
+      "precio_por_noche": 69,
+      "id": 19
+    },
+    {
+      "tipo": "doble",
+      "disponibilidad": false,
+      "precio_por_noche": 25,
+      "id": 20
+    },
+    {
+      "tipo": "single",
+      "disponibilidad": false,
+      "precio_por_noche": 93,
+      "id": 21
+    },
+    {
+      "tipo": "triple",
+      "disponibilidad": false,
+      "precio_por_noche": 45,
+      "id": 22
+    },
+    {
+      "tipo": "triple",
+      "disponibilidad": false,
+      "precio_por_noche": 10,
+      "id": 23
+    },
+    {
+      "tipo": "single",
+      "disponibilidad": false,
+      "precio_por_noche": 91,
+      "id": 24
+    },
+    {
+      "tipo": "single",
+      "disponibilidad": false,
+      "precio_por_noche": 79,
+      "id": 25
+    },
+    {
+      "tipo": "single",
+      "disponibilidad": false,
+      "precio_por_noche": 71,
+      "id": 26
+    },
+    {
+      "tipo": "single",
+      "disponibilidad": false,
+      "precio_por_noche": 11,
+      "id": 27
+    },
+    {
+      "tipo": "triple",
+      "disponibilidad": false,
+      "precio_por_noche": 94,
+      "id": 28
+    },
+    {
+      "tipo": "triple",
+      "disponibilidad": false,
+      "precio_por_noche": 3,
+      "id": 29
+    },
+    {
+      "tipo": "doble",
+      "disponibilidad": false,
+      "precio_por_noche": 8,
+      "id": 30
+    }
+  ]

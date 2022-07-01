@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 import React, { useState } from 'react';
+=======
+import React from 'react';
+>>>>>>> Stashed changes
 import Footer from '../components/Footer';
 import '../styles/ContactoStyle.css';
 
