@@ -17,17 +17,16 @@ const RoomTable = ({ data, filter, setSelectedRoom }) => {
                 </TableHead>
                 <TableBody>
                     {data
-                        /* .filter(({ name: { english } }) =>
-                            english.toLocaleLowerCase().includes(filter.toLocaleLowerCase())
-                        ) */
-                        .slice(0, 8)
-                        .map((room) => (
+                    .filter(({tipo}) => 
+                    tipo.toLocaleLowerCase().includes(filter.toLocaleLowerCase())
+                    )
+                    .map((elem) => (
                             <RoomRow
-                                key={room.id}
-                                room={room}
+                                key={elem.id}
+                                room={elem}
                                 // custom event, esto "camufla" el prop drilling porque, en realidad,
                                 // el componente PokemonRow debería recibir directamente setSelectedPokemon y hacer allí la operación
-                                onInfo={() => setSelectedRoom(room)}
+                                onInfo={() => setSelectedRoom(elem)}
                             />
                         ))}
                 </TableBody>

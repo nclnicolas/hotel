@@ -2,24 +2,35 @@ import React, { useState, useEffect } from "react";
 import RoomFilter from "../components/RoomFilter";
 import RoomTable from "../components/RoomTable";
 import RoomInfo from "../components/RoomInfo";
+import axios from 'axios';
 
 const Habitaciones = () => {
   const [data, setData] = useState([])
   const [filter, setFilter] = useState("");
   const [selectedRoom, setSelectedRoom] = useState(null);
 
-  function handleErrors(res) {
+  /* function handleErrors(res) {
     if (!res.ok) throw Error(res.status)
     return res.json();
   }
+ */
+  const verHabitaciones = async() => {
+    const datoHabitaciones = await axios.get('http://localhost:3000/room.json')
+    console.log('ver', datoHabitaciones);
+    setData(datoHabitaciones.data);
+}
 
+useEffect(() => {
+    verHabitaciones();
+}, [])
+  
   //con Vite basta con poner el archivo en la carpeta exterior, con webpack habría que incluirla en la carpeta public
-  useEffect(() => {
-    fetch("../data/room.json")
+  /* useEffect(() => {
+    fetch("http://localhost:3000/room.json")
       .then(res => handleErrors(res))
       .then(data => setData(data))
-      .catch(error => console.log(error))
-  }, [])
+      .catch(error => console.log('el error', error))
+  }, []) */
 
 
   return (
