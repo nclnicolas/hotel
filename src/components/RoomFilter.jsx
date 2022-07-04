@@ -4,8 +4,9 @@ import { TextField } from "@mui/material";
 
 const RoomFilter = ({ setFilter }) => {
     return < TextField
-        label="Search..." variant="filled"
+        label="Busque por tipo..." variant="filled"
         onChange={(e) => setFilter(e.target.value)}
+        
     />
 }
 

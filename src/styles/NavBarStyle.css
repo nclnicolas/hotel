@@ -27,6 +27,9 @@
 .navbar a:hover{
     color: #fff;
 }
+.logo{
+    margin-left: 3%;
+}
 @media screen and (max-width: 600px){
     .menu{
         width: 100%;

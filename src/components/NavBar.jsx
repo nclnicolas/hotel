@@ -2,13 +2,16 @@ import { Outlet, Link } from "react-router-dom";
 import '../styles/NavBarStyle.css';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faBars} from '@fortawesome/free-solid-svg-icons';
+import Logo from "../assets/images/logo_hotel.png"
 
 const NavBar = () => {
     return(
         <>
         <header>
             <nav className="navbar">
-               <Link to='/' className="logo">Logo</Link>
+               <Link to='/' className="logo">
+               <a href="/"><img className="logo" src={Logo} alt="Logo" width="100px"/></a>
+               </Link>
                 <input type="checkbox" id="toggler" />
                 <label htmlFor='toggler'><i className="ri-menu-line"><FontAwesomeIcon icon={faBars} className='icon' /></i></label>
                 <div className="menu">

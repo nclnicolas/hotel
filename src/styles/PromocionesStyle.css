@@ -111,4 +111,7 @@ h3{
     .lista{
         list-style-type: none;
     }
+    .cotizacion{
+        margin-left: 60%;
+    }
 }

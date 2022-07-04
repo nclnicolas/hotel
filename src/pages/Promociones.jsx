@@ -1,8 +1,8 @@
 import "../styles/PromocionesStyle.css";
-import Cards from "../assets/images/cards.png";
-import Single from "../assets/images/habitacion-single.jpg";
-import Doble from "../assets/images/habitacion-doble.jpg";
-import Triple from "../assets/images/habitacion-triple.jpg";
+import Mp from "../assets/images/mp.jpg";
+import Dolar from "../assets/images/dolar_peso.jpg";
+import Crypto from "../assets/images/crypto.jpeg";
+import Posnet from "../assets/images/posnet.jpg";
 import Footer from '../components/Footer';
 
 const Promociones = () => {
@@ -19,7 +19,7 @@ const Promociones = () => {
             del 20% con cualquier medio de pago. Aceptamos todas las tarjetas de crédito y débito,
             pago en efectivo, Mercado Pago y otras billeteras virtuales.
           </p>
-          <img src={Cards} alt="Tarjetas VISA, Master y American Express"></img>
+          <img src={Posnet} alt="Una tarjeta pasando por un postnet" />
           <p>
             Además tenés hasta 6 cuotas sin interés con los siguientes bancos:
             <ul>
@@ -32,43 +32,43 @@ const Promociones = () => {
           
         </div>
         {/* ---------------------------------------------------- */}
-        {/* -----HABITACIONES------------------------------------*/}
+        {/* -----MEDIOS DE PAGO------------------------------------*/}
         <div className="habitaciones">
-          <h3>Nuestras Habitaciones</h3>
+          <h3>Todos los medios de pago 💵</h3>
           <p>
-            Todas nuestras habitaciones están climatizadas e insonorizadas para
-            un descanso asegurado. <br />
-            Incluyen TV LED por cable, minibar, WiFi de alta velocidad y
-            aparcamiento gratuito, además de un exquisito desayuno. <br />
+            ¿Efectivo, Mercado Pago, PayPal o tarjetas de crédito/débito? <br />
+            ¡Aceptamos una gran variedad de medios de pago! Y no solo eso, <br />
+            sino que podés combinar las formas de pago como quieras. <br />
+            <br />
+            <br />
           </p>
-          <p>Elige la opción que más se acomode a tus necesidades!</p>
 
           <div className="habitaciones-container">
             <div>
-              <img src={Single} alt="" />
-              <h3>Single/Matrimonial</h3>
+              <img src={Mp} alt="Logo de Mercado Pago" />
+              <h3>Billeteras virtuales</h3>
               <p>
-                Amplias y acogedoras habitaciones con una enorme y cómoda cama
-                Ultra Súper King, para que tu descanso y estadía en sea más que
-                perfecto!
+                Pagá con billeteras virtuales como Mercado Pago, Ualá y PayPal.
+                Consultá por las promociones especiales de MP. ¡Descuentos exclusivos
+                según el nivel en el que estés!
               </p>
             </div>
             <div>
-              <img src={Doble} alt="" />
-              <h3>Doble</h3>
+              <img src={Dolar} alt="Foto de pesos argentinos y dólares" />
+              <h3>Efectivo</h3>
               <p>
-                Habitaciones con dos camas individuales, dispuestas en un gran
-                espacio y con todas las comodidades para que disfrutes tu
-                estadía en compañía.
+                Podés abonar con pesos argentinos o con dólares (tomremos como)
+                refrencia el valor de la moneda extranjera al momento de la
+                transacción. Consultanos
               </p>
             </div>
             <div>
-              <img src={Triple} alt="" />
-              <h3>Triple</h3>
+              <img src={Crypto} alt="Foto de cryptomonedas" />
+              <h3>Cryptomonedas</h3>
               <p>
-                Habitaciones con tres camas individuales, distribuidas
-                cómodamente para que compartas un agradable momento junto a tus
-                amigos o familia!
+                Por supuesto que no vamos a quedarnos afuera de las nuevas
+                modalidades de pago. Consultá cómo podés abonar tu habitación con
+                cryptomonedas.
               </p>
             </div>
           </div>
@@ -76,11 +76,16 @@ const Promociones = () => {
         {/* ---------------------------------------------------- */}
         {/* ------------------INFO IMAGEN----------------------- */}
         <div className="images-home">
-            <img src={Cards} alt="Nuestro Hotel" />
+            <img src={Posnet} alt="Una tarjeta pasando por un postnet" />
             </div>
         {/* ---------------------------------------------------- */}
         {/* ---------------------------------------------------- */}
         {/* --------------------FOOTER-------------------------- */}
+        <iframe width="80%" height="90%"
+                src="https://www.dolarsi.com/func/moduloArriba-n.html"
+                className="cotizacion"
+                frameborder="0" scrolling="0" allowfullscreen="">
+        </iframe>
         <Footer />
       </div>
     </>

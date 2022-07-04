@@ -20,6 +20,7 @@ const RoomTable = ({ data, filter, setSelectedRoom }) => {
                     .filter(({tipo}) => 
                     tipo.toLocaleLowerCase().includes(filter.toLocaleLowerCase())
                     )
+                    .slice(0, 12)
                     .map((elem) => (
                             <RoomRow
                                 key={elem.id}
