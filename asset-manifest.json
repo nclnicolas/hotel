@@ -1,22 +1,27 @@
 {
   "files": {
-    "main.css": "/hotel/static/css/main.9953cdbc.css",
-    "main.js": "/hotel/static/js/main.d9e679b7.js",
+    "main.css": "/hotel/static/css/main.c4956526.css",
+    "main.js": "/hotel/static/js/main.800314b3.js",
     "static/media/rev-tel.jpeg": "/hotel/static/media/rev-tel.455f1604cc5156fd3a2d.jpeg",
     "static/media/habitacion-triple.jpg": "/hotel/static/media/habitacion-triple.668bdb11310452617ef9.jpg",
+    "static/media/posnet.jpg": "/hotel/static/media/posnet.ca0439d072c572bc50b5.jpg",
+    "static/media/dolar_peso.jpg": "/hotel/static/media/dolar_peso.75427712e42f30c699d2.jpg",
     "static/media/hotel.jpg": "/hotel/static/media/hotel.e35dd8631137b6915b64.jpg",
     "static/media/habitacion-single.jpg": "/hotel/static/media/habitacion-single.ce2a477986e715faa53f.jpg",
+    "static/media/crypto.jpeg": "/hotel/static/media/crypto.89a550288b6848131db0.jpeg",
     "static/media/instagram-icon.png": "/hotel/static/media/instagram-icon.b074879174dd8ecfd041.png",
+    "static/media/logo_hotel.png": "/hotel/static/media/logo_hotel.39e902fc8881a2c2fedb.png",
     "static/media/habitacion-doble.jpg": "/hotel/static/media/habitacion-doble.54148d860d42f056257a.jpg",
+    "static/media/mp.jpg": "/hotel/static/media/mp.01136124d815d4474b18.jpg",
     "static/media/whatsapp-icon.png": "/hotel/static/media/whatsapp-icon.02a723eae4fa9f261231.png",
     "static/media/facebook-icon.png": "/hotel/static/media/facebook-icon.cf84ef05740869a11bc0.png",
     "static/media/mail-icon.png": "/hotel/static/media/mail-icon.0ff8c06a6baf11146cb1.png",
     "index.html": "/hotel/index.html",
-    "main.9953cdbc.css.map": "/hotel/static/css/main.9953cdbc.css.map",
-    "main.d9e679b7.js.map": "/hotel/static/js/main.d9e679b7.js.map"
+    "main.c4956526.css.map": "/hotel/static/css/main.c4956526.css.map",
+    "main.800314b3.js.map": "/hotel/static/js/main.800314b3.js.map"
   },
   "entrypoints": [
-    "static/css/main.9953cdbc.css",
-    "static/js/main.d9e679b7.js"
+    "static/css/main.c4956526.css",
+    "static/js/main.800314b3.js"
   ]
 }

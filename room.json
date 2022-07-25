@@ -1,0 +1,212 @@
+[
+  {
+    "id": 1,
+    "tipo": "single",
+    "disponibilidad": "ocupado",
+    "precio_por_noche": 75,
+    "img": "https://www.hotelpuertopilar.cl/wp-content/uploads/2019/04/Habitacion-Single-2.jpg"
+  },
+  {
+    "tipo": "doble",
+    "disponibilidad": false,
+    "precio_por_noche": 48,
+    "id": 2,
+    "img": "https://th.bing.com/th/id/R.95909838959639ddfa02a42083b4bb9e?rik=qj91vHblzi0Nwg&pid=ImgRaw&r=0"
+  },
+  {
+    "tipo": "single",
+    "disponibilidad": false,
+    "precio_por_noche": 31,
+    "id": 3,
+    "img": "https://i.pinimg.com/originals/9d/c3/05/9dc305802c66614372fa659aab32fde5.jpg"
+  },
+  {
+    "tipo": "doble",
+    "disponibilidad": false,
+    "precio_por_noche": 96,
+    "id": 4,
+    "img": "https://www.hostalsavoy.com/wp-content/uploads/HostalSavoyAlcoy208.1-01.jpg"
+  },
+  {
+    "tipo": "doble",
+    "disponibilidad": false,
+    "precio_por_noche": 71,
+    "id": 5,
+    "img": "https://smhotel.pe/wp-content/uploads/2016/10/TWIN-4.png"
+  },
+  {
+    "tipo": "triple",
+    "disponibilidad": false,
+    "precio_por_noche": 12,
+    "id": 6,
+    "img": "https://th.bing.com/th/id/R.9a2d33da4ed265cc3f4aa2ec92cb6ec2?rik=a07J7k7gp4N%2fGg&riu=http%3a%2f%2fposadaborravino.com%2fwp-content%2fuploads%2f02-11.jpg&ehk=3pbqAh3g0UsRUzot3kjG9hq1asK64yTIF%2fSgvqHe7u8%3d&risl=&pid=ImgRaw&r=0"
+  },
+  {
+    "tipo": "triple",
+    "disponibilidad": false,
+    "precio_por_noche": 77,
+    "id": 7,
+    "img": "https://www.hotelcompostela.es/files-sbbasic/sr_hotelcompostela_es/habitacio__n_triple.jpg"
+  },
+  {
+    "tipo": "doble",
+    "disponibilidad": false,
+    "precio_por_noche": 19,
+    "id": 8,
+    "img": "https://th.bing.com/th/id/R.52e41e092f8745b9ae578ad9ce6dc2b4?rik=ypQxRlX%2bIbyvww&riu=http%3a%2f%2fwww.hotelsauce.com%2fimages%2fhabitaciones%2fgaleria-doble%2fhabitacion-doble-hotel-sauce-en-zaragoza-04.jpg&ehk=rrQbQZMIHGO7LfcgFeTr5aY%2bBI%2fFqZgtxTwtEvqxAuw%3d&risl=&pid=ImgRaw&r=0"
+  },
+  {
+    "tipo": "single",
+    "disponibilidad": false,
+    "precio_por_noche": 7,
+    "id": 9,
+    "img": "https://th.bing.com/th/id/R.f6250c967d5cec394ab0532546ed32cc?rik=%2bfGhcPAJ%2foELXw&riu=http%3a%2f%2fwww.hotelgranpalace.cl%2fuploads%2fmedia%2fhabitaciones%2festandar%2fsingle-matrimonial.jpg&ehk=N4brzP1JbZaSWSX2%2fokLjmxndjst0BSI8JbozuDz%2fns%3d&risl=&pid=ImgRaw&r=0"
+  },
+  {
+    "tipo": "single",
+    "disponibilidad": false,
+    "precio_por_noche": 11,
+    "id": 10,
+    "img": "https://th.bing.com/th/id/R.f7dd3e7d6cd498068d7578272e8063a1?rik=dwLmvgUnD19kqA&riu=http%3a%2f%2fwww.hotelaraucano.cl%2fwp-content%2fuploads%2f2013%2f06%2fhab.standar.jpg&ehk=klqHpkLS5l9gd%2fTNVicBu6j%2b4%2b0q5%2fkdOR8C5Lwla0I%3d&risl=&pid=ImgRaw&r=0"
+  },
+  {
+    "tipo": "doble",
+    "disponibilidad": false,
+    "precio_por_noche": 39,
+    "id": 11,
+    "img": "https://th.bing.com/th/id/R.e45a900cb08ce91af32551a871754bdf?rik=8w8INpMVmqof%2bg&riu=http%3a%2f%2fwww.trescantos-hotel.com%2ffiles%2fhotel%2fhotel-tres-cantos%2f02-habitaciones%2fdoble-twin-03.jpg&ehk=IxlbtBg7Q1qmpoahRQlSPMUQEkSUTfP1Jylegz0HAlA%3d&risl=&pid=ImgRaw&r=0"
+  },
+  {
+    "tipo": "triple",
+    "disponibilidad": false,
+    "precio_por_noche": 49,
+    "id": 12,
+    "img": "https://www.lourdes-roissy.com/sites/lourdes-roissy.com/files/styles/chambre_slider/public/chambres/hotel-lourdes-4-estrellas-cerca-gruta-roissy_8.jpg?itok=CkyWQUSF"
+  },
+  {
+    "tipo": "doble",
+    "disponibilidad": false,
+    "precio_por_noche": 4,
+    "id": 13,
+    "img": "https://www.aluamallorcaresort.com/uploads/galeriahabitaciones/_MG_9364.jpg"
+  },
+  {
+    "tipo": "single",
+    "disponibilidad": false,
+    "precio_por_noche": 19,
+    "id": 14,
+    "img": "https://th.bing.com/th/id/OIP.lk9RPGg07Ke00mRqiMvAIQHaE6?pid=ImgDet&rs=1"
+  },
+  {
+    "tipo": "single",
+    "disponibilidad": false,
+    "precio_por_noche": 49,
+    "id": 15,
+    "img": "https://i.pinimg.com/originals/b6/58/47/b6584788ee9360490086f295feb13f37.jpg"
+  },
+  {
+    "tipo": "doble",
+    "disponibilidad": false,
+    "precio_por_noche": 14,
+    "id": 16,
+    "img": "https://th.bing.com/th/id/OIP.b10pYPXCn2uTBA8ZNC17pAHaE8?pid=ImgDet&rs=1"
+  },
+  {
+    "tipo": "triple",
+    "disponibilidad": false,
+    "precio_por_noche": 42,
+    "id": 17,
+    "img": "https://th.bing.com/th/id/R.296565462700558b79ae453148b18d9e?rik=UYHUMREcOxwe9w&pid=ImgRaw&r=0"
+  },
+  {
+    "tipo": "single",
+    "disponibilidad": false,
+    "precio_por_noche": 43,
+    "id": 18,
+    "img": "https://www.astoria7hotel.com/assets/img/rooms/ASTORIA7_INDIVIDUAL_02.jpg"
+  },
+  {
+    "tipo": "doble",
+    "disponibilidad": false,
+    "precio_por_noche": 69,
+    "id": 19,
+    "img": "https://th.bing.com/th/id/R.5945fd8850fe228920b8d3492585db5e?rik=debVjmHmLeRCxA&riu=http%3a%2f%2fwww.ofertas-hotel-cuzco.com%2fwp-content%2fuploads%2f2019%2f05%2fdobles_plus2.jpg&ehk=I3BaoMFxOV2cxBkfnBQtStR%2fafF9JNTmLG%2bfIfpVqMM%3d&risl=&pid=ImgRaw&r=0"
+  },
+  {
+    "tipo": "doble",
+    "disponibilidad": false,
+    "precio_por_noche": 25,
+    "id": 20,
+    "img": "https://th.bing.com/th/id/OIP.i169QlVUBxIlKpsL6ZtSjQHaFj?pid=ImgDet&rs=1"
+  },
+  {
+    "tipo": "single",
+    "disponibilidad": false,
+    "precio_por_noche": 93,
+    "id": 21,
+    "img": "https://www.bing.com/images/search?view=detailV2&ccid=St5Pd4Om&id=25C960C6CD343A1CF0593DC9EA698ED19765BDB9&thid=OIP.St5Pd4OmufefiOKwNePRJgHaE8&mediaurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.4ade4f7783a6b9f79f88e2b035e3d126%3frik%3dub1ll9GOaerJPQ%26riu%3dhttp%253a%252f%252fhotelesenguayaquil.com%252fwp-content%252fuploads%252f2017%252f12%252fIMG_0095-1024x683.jpg%26ehk%3d1zJdomZTsu%252b%252fuyyHCZhfRXuDwI%252bWLa%252b37TkADZjjbKU%253d%26risl%3d%26pid%3dImgRaw%26r%3d0&exph=683&expw=1024&q=Foto+Habitaci%c3%b3n+Single&simid=608050855609633314&FORM=IRPRST&ck=80B0136663AEC7DBD257FD3B3FEF503B&selectedIndex=31"
+  },
+  {
+    "tipo": "triple",
+    "disponibilidad": false,
+    "precio_por_noche": 45,
+    "id": 22,
+    "img": "https://th.bing.com/th/id/R.49e6ddfbdfd4df7319a3c68d471e76bc?rik=pMohPoX9xB%2bVmg&riu=http%3a%2f%2flavegahotel.com%2fimg%2fslider-habitacion-triple-3.jpg&ehk=BmlrogsjDMYsXHzw6e%2fv6L2dTChNVhGpFof%2fY7%2baQXA%3d&risl=&pid=ImgRaw&r=0"
+  },
+  {
+    "tipo": "triple",
+    "disponibilidad": false,
+    "precio_por_noche": 10,
+    "id": 23,
+    "img": "https://th.bing.com/th/id/R.e6a4baf7a9a2c042244b7b9079b74bb6?rik=VlIcOZifvN%2fGGQ&pid=ImgRaw&r=0"
+  },
+  {
+    "tipo": "single",
+    "disponibilidad": false,
+    "precio_por_noche": 91,
+    "id": 24,
+    "img": "https://th.bing.com/th/id/OIP.St5Pd4OmufefiOKwNePRJgHaE8?pid=ImgDet&rs=1"
+  },
+  {
+    "tipo": "single",
+    "disponibilidad": false,
+    "precio_por_noche": 79,
+    "id": 25,
+    "img": "https://th.bing.com/th/id/OIP.QIbRjQmHNsQ8f-Ge9srn_AHaE8?pid=ImgDet&rs=1"
+  },
+  {
+    "tipo": "single",
+    "disponibilidad": false,
+    "precio_por_noche": 71,
+    "id": 26,
+    "img": "https://th.bing.com/th/id/OIP.UKr1aZL6shoNsrsvxpOXrgHaFf?pid=ImgDet&rs=1"
+  },
+  {
+    "tipo": "single",
+    "disponibilidad": false,
+    "precio_por_noche": 11,
+    "id": 27,
+    "img": "https://www.hotelpuertopilar.cl/wp-content/uploads/2019/04/Habitacion-Doble-2.jpg"
+  },
+  {
+    "tipo": "triple",
+    "disponibilidad": false,
+    "precio_por_noche": 94,
+    "id": 28,
+    "img": "https://th.bing.com/th/id/R.9aac80a01512b159c49dcdcb61bf6eca?rik=wwyE1k1p4yAbCQ&riu=http%3a%2f%2fwww.laurentshotel.com%2fwp-content%2fuploads%2f2019%2f04%2fhabitacion-triple-01.jpg&ehk=OC9mTQgSLZn8yvILqmy1Oc4ZljRQ6mwt7EOmzQvRHq4%3d&risl=&pid=ImgRaw&r=0"
+  },
+  {
+    "tipo": "triple",
+    "disponibilidad": false,
+    "precio_por_noche": 3,
+    "id": 29,
+    "img": "https://th.bing.com/th/id/R.29daa1ad6c4acee8f33b7e893a073126?rik=coL6gjHLxME7BQ&riu=http%3a%2f%2fhotelesmachala.com%2fwp-content%2fuploads%2f2017%2f06%2fhabitacion-triple.jpg&ehk=PBRKD02acnR1hM8c%2bXvng4%2bDERsVg2sGlhMccSE05FE%3d&risl=&pid=ImgRaw&r=0"
+  },
+  {
+    "tipo": "doble",
+    "disponibilidad": false,
+    "precio_por_noche": 8,
+    "id": 30,
+    "img": "https://q-ec.bstatic.com/images/hotel/max1024x768/109/109612115.jpg"
+  }
+]
