@@ -3,7 +3,6 @@ import RoomFilter from "../components/RoomFilter";
 import RoomTable from "../components/RoomTable";
 import RoomInfo from "../components/RoomInfo";
 import axios from 'axios';
-import fut from '../../build/room.json'
 
 const Habitaciones = () => {
   const [data, setData] = useState([])
