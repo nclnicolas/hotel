@@ -3,6 +3,7 @@ import RoomFilter from "../components/RoomFilter";
 import RoomTable from "../components/RoomTable";
 import RoomInfo from "../components/RoomInfo";
 import axios from 'axios';
+import fut from '../../build/room.json'
 
 const Habitaciones = () => {
   const [data, setData] = useState([])
@@ -15,7 +16,7 @@ const Habitaciones = () => {
   }
  */
   const verHabitaciones = async() => {
-    const datoHabitaciones = await axios.get('room.json')
+    const datoHabitaciones = await axios.get('http://localhost:3000/room.json')
     console.log('ver', datoHabitaciones);
     setData(datoHabitaciones.data);
 }
