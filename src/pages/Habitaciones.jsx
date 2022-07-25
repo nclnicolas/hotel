@@ -15,7 +15,7 @@ const Habitaciones = () => {
   }
  */
   const verHabitaciones = async() => {
-    const datoHabitaciones = await axios.get('http://localhost:3000/room.json')
+    const datoHabitaciones = await axios.get('room.json')
     console.log('ver', datoHabitaciones);
     setData(datoHabitaciones.data);
 }
